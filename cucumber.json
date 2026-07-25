@@ -1,0 +1,18 @@
+{
+    "default": {
+        "paths": [
+            "features/*.feature"
+        ],
+        "require": [
+            "hooks/Hooks.js",
+            "steps/*.js"
+        ],
+        "dryRun": false,
+        "format": [
+            "junit:reports/cucumber-report.xml",
+            "json:reports/cucumber-report.json",
+            "html:reports/cucumber-report.html",
+            "rerun: @rerun.txt"
+        ]
+    }
+}

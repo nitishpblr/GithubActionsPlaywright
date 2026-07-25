@@ -1,0 +1,24 @@
+{
+  "name": "playwrightmay2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --format rerun:@rerun.txt",
+    "rerun": "cucumber-js @rerun.txt",
+    "report": "node report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "multiple-cucumber-html-reporter": "^3.10.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
